@@ -14,3 +14,5 @@
 =================================================
 7. ##Betty in My first directory## Created a file betty with a script containing a command to move the file betty from /tmp/ to /tmp/my-first-directory and user granted execution rights.
 =================================================
+8. ##Bye bye Betty## Creating a file 8-firstdelete with a script containing a command to delete the file betty from /tmp/my-first-directory and user granted execution rights.
+=================================================
