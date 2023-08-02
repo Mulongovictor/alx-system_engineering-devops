@@ -8,3 +8,5 @@
 =================================================
 4. ##Hidden files## Creating a file 4-listmorefiles with a script containing a command that displays current directory contents, including hidden files and grants user execution rights.
 =================================================
+5. ##I love numbers##Creating a file 5-listfilesdigitonly with a script containing a command that displays current directory contents in long format with user and group IDs displayed numerically including hidden files and grants user execution rights.
+================================================= 
