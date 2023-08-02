@@ -12,3 +12,5 @@
 =================================================
 6. ##Welcome## Creating a file 6-firstdirectory  with a script that creates a directory named my-first-directory in the /tmp/ directory and grants user execution rights.
 =================================================
+7. ##Betty in My first directory## Created a file betty with a script containing a command to move the file betty from /tmp/ to /tmp/my-first-directory and user granted execution rights.
+=================================================
