@@ -16,3 +16,5 @@
 =================================================
 8. ##Bye bye Betty## Creating a file 8-firstdelete with a script containing a command to delete the file betty from /tmp/my-first-directory and user granted execution rights.
 =================================================
+9. ##Bye bye My first directory## Creating a file 9-firstdelete with a script containing a command to delete /tmp/my-first-directory and user granted execution rights.
+=================================================
