@@ -20,4 +20,5 @@
 =================================================
 10. ##Back to the future## Creating a file 10-back with a script containing a command that changes the working directory to the previous one and user granted execution rights.
 =================================================
-
+11. ##Lists## Creating a file 11-lists with a script containing a command that lists all files.
+=================================================
