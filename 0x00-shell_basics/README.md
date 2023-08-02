@@ -6,3 +6,5 @@
 ================================================= 
 3. ##The Long format## Creating a file 3-listfiles with a scripted that displays current directory contents in a long format and user granted rights of execution.
 =================================================
+4. ##Hidden files## Creating a file 4-listmorefiles with a script containing a command that displays current directory contents, including hidden files and grants user execution rights.
+=================================================
