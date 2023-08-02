@@ -18,3 +18,6 @@
 =================================================
 9. ##Bye bye My first directory## Creating a file 9-firstdelete with a script containing a command to delete /tmp/my-first-directory and user granted execution rights.
 =================================================
+10. ##Back to the future## Creating a file 10-back with a script containing a command that changes the working directory to the previous one and user granted execution rights.
+=================================================
+
