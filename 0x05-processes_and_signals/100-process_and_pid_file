@@ -1,12 +1,20 @@
 #!/usr/bin/env bash
-# Bash script with multiple executions
+#Creates file in /var/run/myscript.pid containing its PID
+#
 
-echo "$$" > /var/run/my_script.pid
+echo "$$" > /var/run/myscript.pid
+
+termfunc() {
+  rm /var/run/myscript.pid
+  exit
+}
+
+
 while true
 do
-	echo "To infinity and beyond"
-	sleep 0.5
-	trap 'echo "I hate the kill command"; rm /var/run/my_script.pid; exit' SIGTERM
-	trap 'echo "Y U no love me?!"' SIGINT
-	trap 'rm /var/run/my_script.pid; exit' SIGQUIT
+  echo "To infinity and beyond"
+  sleep 2
+  trap 'echo "Y U no love me?!"' SIGINT
+  trap 'echo "I hate the kill command" && termfunc' SIGTERM
+  trap 'termfunc' SIGQUIT
 done
